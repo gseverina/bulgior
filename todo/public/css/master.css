@@ -1,0 +1,8 @@
+body {
+padding-top: 41px;
+}
+.page-header {margin-top: 50px;}
+input {height: 20px;}
+.post-item {padding: 10px 0 10px 0;}
+.post-item .span8 {margin-top: 20px; border-bottom: 1px solid #ccc;}
+.post-item .span1 a {color:red;}

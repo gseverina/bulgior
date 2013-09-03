@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head profile="http://www.w3.org/2005/11/profile">
+    <title>BUL-GIOR</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="Author" content="Gast&oacute;n Severina" />
+    <link rel="stylesheet" type="text/css" href="styles/noasol.css" />
+  </head>
+  <body onLoad="pepe()">
+    <table class="logintable" align="center">
+      <tr>
+		<td class="header_bulgior" align="center">
+			<font class="header_bulgior" align="center">BUL - GIOR</font>
+			</br>
+			<font class="header_bulgior2" align="center">BULONERIA EN GENERAL</font>
+		</td>
+      </tr>
+      <tr>
+        <td class="content">
+          {content}
+        </td>
+      </tr>
+
+      <tr>
+        <td class="footer">
+          {footer}
+        </td>
+      </tr>
+    </table>
+    <div id="DEBUG" style="visibility:hidden"></div>
+  </body>
+  <script>
+  	function pepe()
+  	{
+		//alert('asdasd');
+	  	document.getElementById("DEBUG").innerHTML = "{debug}";
+	  	document.getElementById("DEBUG").style.visibility = "visible";
+		form_login.usuario.focus();
+	}
+  </script>
+
+</html>

@@ -1,0 +1,97 @@
+/**
+ * 'spring' theme for the WebComponent demo.
+ */
+
+body, td, input, select, textarea {
+	font-family : serif;
+	font-size : 10pt;
+}
+
+body {
+	color : #444;
+	background-color : #ff6;
+}
+
+h1 {
+	font-size: 14pt;
+	color : yellow;
+}
+
+h2 {
+	font-size: 12pt;
+
+}
+a {
+	color : orange;
+	text-decoration : none;
+}
+
+a:hover {
+	color : orange;
+	text-decoration : underline;
+}
+
+a:active {
+	color : #000;
+}
+
+a.menuItem {
+	color : orange;
+	border-left : 1px dotted orange;
+	text-decoration : none;
+	padding : 2px;
+}
+
+a.menuItem:hover {
+	color : red;
+	background-color : #ffc;
+	text-decoration : none;
+}
+
+a.menuItem:active {
+	color : #000;
+}
+
+a.light {
+	color :#cc0 ;
+	text-decoration : none;
+}
+
+a.light:hover {
+	color : orange;
+	text-decoration : none;
+}
+
+a.light:active {
+	color : #666;
+	text-decoration : none;
+}
+
+table.maintable {
+	width : 670px;
+}
+
+td.header {
+	background-color : orange;
+	color : yellow;
+	font-size: 9pt;
+	padding-left : 10px;
+}
+
+td.menu {
+	background-color : #fff;
+	text-align : right;
+}
+
+td.content {
+	background-color : #fff;
+	padding : 10px;
+}
+
+td.footer {
+	background-color : #ff9;
+	color : #cc6;
+	font-size: 9pt;
+	padding-right : 10px;
+	text-align : right;
+}

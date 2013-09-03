@@ -1,0 +1,97 @@
+/**
+ * 'dark' theme for the WebComponent demo.
+ */
+
+body, td, input, select, textarea {
+	font-family : arial, helvetica, sans-serif;
+	font-size : 10pt;
+}
+
+body {
+	color : #333;
+	background-color : #666;
+}
+
+h1 {
+	font-size: 14pt;
+	color : green;
+}
+
+h2 {
+	font-size: 12pt;
+
+}
+a {
+	color : #090;
+	text-decoration : none;
+}
+
+a:hover {
+	color : #090;
+	text-decoration : underline;
+}
+
+a:active {
+	color : #000;
+}
+
+a.menuItem {
+	color : #090;
+	border : 1px solid #090;
+	text-decoration : none;
+	padding : 2px;
+}
+
+a.menuItem:hover {
+	color : #090;
+	background-color : #cfc;
+	text-decoration : none;
+}
+
+a.menuItem:active {
+	color : #000;
+}
+
+a.light {
+	color :#6B996B ;
+	text-decoration : none;
+}
+
+a.light:hover {
+	color : #090;
+	text-decoration : none;
+}
+
+a.light:active {
+	color : #666;
+	text-decoration : none;
+}
+
+table.maintable {
+	width : 600px;
+}
+
+td.header {
+	background-color : #ccc;
+	color : #999;
+	font-size: 9pt;
+	padding-left : 10px;
+}
+
+td.menu {
+	background-color : #fff;
+	text-align : right;
+}
+
+td.content {
+	background-color : #efefef;
+	padding : 10px;
+}
+
+td.footer {
+	background-color : #ccc;
+	color : #999;
+	font-size: 9pt;
+	padding-right : 10px;
+	text-align : right;
+}

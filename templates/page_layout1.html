@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head profile="http://www.w3.org/2005/11/profile">
+    <title>BUL-GIOR</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta name="Author" content="Gast&oacute;n Severina" />
+    <link rel="stylesheet" type="text/css" href="styles/noasol.css" />
+  </head>
+  <body onLoad="pepe()">
+    <table class="maintable" align="center" border="0">
+      <tr>
+        <td class="header" width="199px" height="52px" align="center">
+			<img width="199px" height="52px" src="./images/bulon1.jpeg">
+		</td>
+        <td class="header">
+			{header}
+		</td>
+		<td class="header" align="center">
+			{fecha}<br/>{hora}
+		</td>
+      </tr>
+<!--
+      <tr>
+		<td class="menu"></td>
+        <td class="menu" colspan="2">
+          {menu}
+        </td>
+      </tr>
+-->
+      <tr>
+        <td class="menu" align="left" valign="top">
+          {menu2}
+        </td>
+        <td class="content" colspan="2" valign="top">
+          {content}
+        </td>
+      </tr>
+      <tr>
+        <td class="footer" colspan="3">
+          {footer}
+        </td>
+      </tr>
+    </table>
+    <div id="DEBUG" style="visibility:hidden"></div>
+  </body>
+  <script type="text/javascript">
+  	function pepe()
+  	{
+		//alert('asdasd');
+	  	document.getElementById("DEBUG").innerHTML = "{debug}";
+	  	document.getElementById("DEBUG").style.visibility = "visible";
+  	}
+  	function cambiar_carrera(myForm)
+  	{
+		var nro_prog_acad = myForm.carrera.options[myForm.carrera.selectedIndex].value;
+		myForm.nro_prog_acad.value=nro_prog_acad;
+  	}
+  </script>
+
+</html>
